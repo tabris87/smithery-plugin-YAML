@@ -1,0 +1,45 @@
+{
+    "name": "featurecli-plugin-yaml",
+    "version": "0.1.0",
+    "description": "featureCLI-plugin to support the yaml language",
+    "main": "index.js",
+    "bin": "execute.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "jest": {
+        "testEnvironment": "node",
+        "roots": [
+            "test"
+        ],
+        "collectCoverage": true,
+        "coverageReporters": [
+            "text",
+            "html"
+        ],
+        "reporters": [
+            "default",
+            [
+                "jest-html-reporters",
+                {
+                    "filename": "./test/latestTests.html",
+                    "expand": false,
+                    "pageTitle": "featureJS-plugin-JSON",
+                    "hideIcon": true
+                }
+            ]
+        ]
+    },
+    "dependencies": {
+        "js-yaml": "^3.14.0",
+        "yaml": "^1.10.0",
+        "featurejs-plugin-json": "git+https://github.com/tabris87/featureJS-plugin-JSON.git"
+    },
+    "devDependencies": {
+        "featureCLI": "git+https://github.com/tabris87/featureJS.git",
+        "jest": "^26.0.1",
+        "jest-html-reporters": "^1.2.1"
+    }
+}
