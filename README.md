@@ -1,7 +1,21 @@
-# featureJS-plugin-JSON
+# smithery-plugin-yaml
 
-## Installation featureJS-plugin for testing
-```npm install -g git+https://github.com/tabris87/featureCLI-plugin-YAML.git```
+*<span style="color:red">--alpha release--</span>*
 
-## Debugging tests
+A smithery plugin to support Feature Oriented Programming (FOP) for YAML with smithery.
+
+## Documentation
+ *Missing*
+
+## Contribution
+ *Missing*
+
+## API Documentation
+ *Missing*
+ 
+## License
+This project is licensed under the Apache Software License, Version 2.0.
+
+<!--## Debugging tests
 ```node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand```
+-->
