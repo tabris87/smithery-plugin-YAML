@@ -1,6 +1,7 @@
 const {
     rules
 } = require('featurejs-plugin-json');
+
 module.exports = {
     rules: rules,
     parser: {
@@ -11,10 +12,4 @@ module.exports = {
         fileEnding: "yaml",
         generator: require('./lib/generator')
     }
-    /* ,
-        dependencies: [] */
-    /* {
-        pluginName: "",
-        version: ""
-    } */
 }
