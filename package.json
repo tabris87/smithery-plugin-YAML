@@ -24,7 +24,7 @@
     "devDependencies": {
         "jest": "^26.0.1",
         "jest-html-reporters": "^1.2.1",
-        "smithery": "^0.2.0"
+        "smithery": "file:../smithery/smithery-core/smithery-0.6.0.tgz"
     },
     "jest": {
         "testEnvironment": "node",
